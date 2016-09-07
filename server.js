@@ -6,7 +6,7 @@ var server = http.createServer();
 console.log("running");
 function control(petic, resp) {
     resp.writeHead(200, {'content-type': 'text/plain'});
-    resp.write('Hola, Mundo!');
+    resp.write('buena  luciano !');
     resp.end();
 
 }
