@@ -11,4 +11,4 @@ function control(petic, resp) {
 
 }
 server.on('request', control);
-server.listen(8080, "54.213.81.66");
+server.listen(8080, "0.0.0.0");
